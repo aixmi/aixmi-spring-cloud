@@ -1,0 +1,14 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>io.github.aixmi</groupId>
+		<artifactId>aixmi-spring-cloud-parent</artifactId>
+		<version>${revision}</version>
+		<relativePath>../aixmi-spring-cloud-parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>aixmi-spring-cloud-starters</artifactId>
+	<packaging>pom</packaging>
+	<name>aixmi-spring-cloud-starters</name>
+
+</project>

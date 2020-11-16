@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>io.github.aixmi</groupId>
+		<artifactId>aixmi-spring-cloud</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<artifactId>aixmi-spring-cloud-dependencies</artifactId>
+	<packaging>pom</packaging>
+	<name>aixmi-spring-cloud-dependencies</name>
+
+	<properties>
+		<aixmi.spring.boot.version>1.0.0.SNAPSHOT</aixmi.spring.boot.version>
+		<spring.cloud.version>Hoxton.SR6</spring.cloud.version>
+		<spring.cloud.ali.version>2.2.1.RELEASE</spring.cloud.ali.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.github.aixmi</groupId>
+				<artifactId>aixmi-spring-boot-dependencies</artifactId>
+				<version>${aixmi.spring.boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring.cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.alibaba.cloud</groupId>
+				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
+				<version>${spring.cloud.ali.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>
