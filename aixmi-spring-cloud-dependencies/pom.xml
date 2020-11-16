@@ -15,7 +15,7 @@
 	<name>aixmi-spring-cloud-dependencies</name>
 
 	<properties>
-		<aixmi.spring.boot.version>1.0.0.SNAPSHOT</aixmi.spring.boot.version>
+		<aixmi.spring.boot.version>1.0.0-SNAPSHOT</aixmi.spring.boot.version>
 		<spring.cloud.version>Hoxton.SR6</spring.cloud.version>
 		<spring.cloud.ali.version>2.2.1.RELEASE</spring.cloud.ali.version>
 	</properties>
